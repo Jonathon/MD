@@ -1,0 +1,26 @@
+
+
+/*Adobe type-kit*/
+Courier Prime Bold Italic {
+font-family: courier-prime, monospace;
+font-weight: 700;
+font-style: italic;
+}
+
+Courier Prime Bold {
+font-family: courier-prime monospace;
+font-weight: 700;
+font-style: normal;
+}
+
+Courier Prime Italic {
+font-family: courier-prime, monospace;
+font-weight: 400;
+font-style: italic;
+}
+
+Courier Prime normal {
+font-family: courier-prime,monospace;
+font-weight: 400;
+font-style: normal;
+}
