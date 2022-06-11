@@ -24,3 +24,10 @@ font-family: courier-prime,monospace;
 font-weight: 400;
 font-style: normal;
 }
+
+h1 {
+     
+        font-family: courier-prime, monospace;
+        font-weight: 700;
+        font-style: italic;
+        }  
