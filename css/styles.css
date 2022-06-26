@@ -28,6 +28,38 @@ h1 {
   font-weight: 700;
   font-style: italic;
 }
+/*css snippet typing effect */
+.typing {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-effect {
+  width: 38ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px, solid;
+  font-family:Courier-prime, monospace;
+  font-size: 2em;
+  animation: typing 2s steps(22), effect .5s step-end infinite alternate;
+  -webkit-animation: typing 2s steps(22), effect .5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width:0;
+  }
+  
+}
+
+@keyframes effect {
+  50% {
+    border-color: transparent;
+  }
+}
+-- end of snippet --->
 .container {
   display: grid;
   grid-template-columns: 8em auto 8em;
