@@ -41,7 +41,7 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px, solid;
-  font-family:Courier-prime, monospace;
+  font-family:Courier, monospace;
   font-size: 2em;
   animation: typing 2s steps(22), effect .5s step-end infinite alternate;
   -webkit-animation: typing 2s steps(22), effect .5s step-end infinite alternate;
