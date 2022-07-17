@@ -1,30 +1,30 @@
 /*Adobe type-kit*/
 Courier Prime Bold Italic {
-  font-family: courier-prime, monospace;
+  font-family: courier, monospace;
   font-weight: 700;
   font-style: italic;
 }
 
 Courier Prime Bold {
-  font-family: courier-prime monospace;
+  font-family: courier monospace;
   font-weight: 700;
   font-style: normal;
 }
 
 Courier Prime Italic {
-  font-family: courier-prime, monospace;
+  font-family: courier, monospace;
   font-weight: 400;
   font-style: italic;
 }
 
 Courier Prime normal {
-  font-family: courier-prime, monospace;
+  font-family: courier, monospace;
   font-weight: 400;
   font-style: normal;
 }
 
 h1 {
-  font-family: courier-prime, monospace;
+  font-family: courier, monospace;
   font-weight: 700;
   font-style: italic;
 }
@@ -43,15 +43,14 @@ h1 {
   border-right: 3px, solid;
   font-family:Courier, monospace;
   font-size: 2em;
-  animation: typing 2s steps(22), effect .5s step-end infinite alternate;
   -webkit-animation: typing 2s steps(22), effect .5s step-end infinite alternate;
+  animation: typing 2s steps(22), effect .5s step-end infinite alternate;
 }
 
 @keyframes typing {
   from {
     width:0;
   }
-  
 }
 
 @keyframes effect {
