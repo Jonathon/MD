@@ -59,33 +59,26 @@ h1 {
     border-color: transparent;
   }
 }
--- end of snippet --->
-.container {
-  display: grid;
-  grid-template-columns: 8em auto 8em;
-  grid-template-rows: 3em auto auto auto 3em;
+
+.body { max-width: 90%;
+        margin: 1rem, auto;
+
 }
 
-header {
-    grid-column: 1 / 4;
-  }
-  
-  nav {
-    grid-row: 2 / 5;
-    grid-column: 1;
-  }
-  
-  aside { 
-    grid-row: 2 / 5;
-    grid-column: 3;
-  }
-  
-  article {
-    grid-row: 2 / 5;
-    grid-column: 2;
-  }
-  
-  footer {
-    grid-column: 1 / 4;
-    grid-row: 5;
-  }
+.container {
+  display: grid;
+}
+
+.mainNav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mainNav a {  
+    color:#000;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border 1px dashed #999;
+    padding 7px, 5px;}
