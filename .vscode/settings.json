@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Rainer"
-    ]
+    ],
+    "files.exclude": {
+        "": true
+    }
 }
